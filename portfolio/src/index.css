@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark\:underline:where([data-mode="dark"], [data-mode="dark"] *){
+    text-decoration-line: underline
+}
+  
+/* 
+.card{
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+}
+
+ */
