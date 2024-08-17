@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import Typewriter from 'typewriter-effect';
 import webpic from './assets/webpic.jpg';
 
 export default function Header(props) {
@@ -13,19 +14,27 @@ export default function Header(props) {
   };
 
   return (
-    <header className="flex flex-col items-center bg-slate-900 p-6">
-      <img src={webpic} alt="Profile" className="rounded-full h-auto max-w-xs shadow-xl m-10" />
-      <h1 className="text-7xl block hover:text-slate-200 font-bold text-slate-50">{props.name}</h1>
-      <div className="text-sky-300 text-lg mt-2">
-        {props.title}
+    <header className="flex flex-col items-center bg-slate-900 p-5">
+      <img src={webpic} alt="Profile" className="transition-transform duration-300 transform hover:scale-105 shadow-lg rounded-full h-auto max-w-xs shadow-xl m-10" />
+      <h1 className="text-5xl block hover:text-slate-200 font-bold text-slate-50 transition-transform duration-300 transform hover:scale-105 shadow-lg">
+        {props.name}
+      </h1>
+      <div className="transition-transform duration-300 transform hover:scale-105 shadow-lg text-sky-300 text-lg mt-2 h-6">
+        <Typewriter
+          options={{
+            strings: ['CS @ Drexel', 'Content Creator', 'Software Engineer Intern'],
+            autoStart: true,
+            loop: true,
+            deleteSpeed: 50
+          }}
+        />
       </div>
       <div className="text-slate-500 text-m mt-2">
         {props.description}
       </div>
-      
       <ul className="flex space-x-4 mt-4">
         <li>
-          <a href="https://www.linkedin.com/binhl3" className="hover:text-slate-100 text-slate-500" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/binhlee" className="hover:text-slate-100 text-slate-500" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin fa-2x"></i>
           </a>
         </li>
@@ -55,7 +64,6 @@ export default function Header(props) {
           </a>
         </li>
       </ul>
-
       {showEmail ? (
         <div className="mt-4 flex items-center justify-between p-2 bg-slate-800 rounded-lg shadow-lg w-48">
           <span className="text-slate-50 mx-auto">bql23@drexel.edu</span>
@@ -71,12 +79,11 @@ export default function Header(props) {
       ) : (
         <button 
           onClick={handleHireMeClick} 
-          className="mt-4 flex items-center justify-center space-x-2 p-2 bg-slate-800 text-white rounded-lg shadow-lg hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-sky-300 w-48"
+          className="mt-4 flex items-center justify-center space-x-2 p-2 bg-slate-800 text-white rounded-lg transition-transform duration-300 transform hover:scale-105 shadow-lg hover:bg-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-300 w-48"
         >
           <span>Hire Me</span>
         </button>
       )}
-
     </header>
   );
 }

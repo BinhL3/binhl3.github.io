@@ -37,7 +37,7 @@ function TimelineItem({ startDate, endDate, title, subtitle, description, skills
   return (
     <div className="mb-8 flex">
       <div className="w-1/3 text-right pr-6">
-        <div className="text-sm font-bold text-gray-500">
+        <div className="text-sm font-bold text-gray-500 mt-4">
           {formattedDate}
         </div>
       </div>
@@ -61,7 +61,7 @@ function TimelineItem({ startDate, endDate, title, subtitle, description, skills
 
 function Timeline({ experiences }) {
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="max-w-3xl">
       <div className="space-y-8">
         {experiences.map((exp, index) => (
           <TimelineItem 

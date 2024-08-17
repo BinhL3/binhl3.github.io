@@ -59,8 +59,10 @@ function App() {
   return(
     <>
       <div className="min-h-screen bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-500">
-          <Header name="Hi, I'm Binh Le" title="CS Student, Content Creator" description="I'm interested in building AI applications and philanthropic endeavors."/>
-          <Card  title="ABOUT" description="A proud Vietnamese studying Computer Science at Drexel. If I'm not coding or looking for internships, I'm most likely recording and editing YouTube videos for 1.2+ million people."/>
+          <Header name="Hi, I'm Binh Le" description="I'm interested in building AI applications and philanthropic endeavors."/>
+          <Card  title="ABOUT" description1={"Born September 29, 2003 in Hanoi, Vietnam.\n"}
+                               description2={"I'm currently studying Computer Science at Drexel. \n"}
+                               description3={"If I'm not coding or looking for internships, I'm most likely recording and editing YouTube videos for 1.2+ million people."}/>
           <Card title="EXPERIENCE">
             <Timeline experiences={experiences} />
           </Card>
