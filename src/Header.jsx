@@ -29,7 +29,7 @@ export default function Header(props) {
           }}
         />
       </div>
-      <div className="text-slate-500 text-m mt-2">
+      <div className="text-slate-500 text-m mt-2 items-center">
         {props.description}
       </div>
       <ul className="flex space-x-4 mt-4">
