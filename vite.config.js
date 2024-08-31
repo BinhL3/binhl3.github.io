@@ -9,5 +9,10 @@ export default defineConfig({
     postcss: {
       plugins: [tailwindcss()],
     },
+  },
+  resolve: {
+    alias: {
+      'pdfjs-dist/build/pdf.worker': 'pdfjs-dist/build/pdf.worker.entry',
+    },
   }
 })

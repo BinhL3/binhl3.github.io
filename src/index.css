@@ -5,7 +5,159 @@
 .dark\:underline:where([data-mode="dark"], [data-mode="dark"] *){
     text-decoration-line: underline
 }
+
+.main-container{
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+}
+
+
+.react-pdf__Page__textContent {
+    display: none;
+  }
   
+.resume {
+    margin-top: 10px;
+    color:#336cf2;
+    font-size: 17px;
+}
+
+
+.role a {
+    color: #336cf2;
+}
+
+.role a:hover {
+    text-decoration: underline;
+}
+
+.resume:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding:25px 0;
+}
+
+.role {
+    font-weight: 600;
+}
+
+ul li {
+    display: flex;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-family: 'Courier New';
+    min-width: 150px;
+    text-align: left;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.description {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.technologies {
+    font-size: 12px;
+    font-style: italic;
+}
+
+ul li span {
+    min-width: 150px;
+    text-align: left;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    ul li {
+        display: block;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .resume {
+        color: #336cf2;
+        font-size: 15px;
+    }
+
+    li p {
+        font-size: 15px;
+    }
+}
+
+
+p {
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: rgb(65, 65, 65);
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1:hover {
+    color:#336cf2
+}
+
+img {
+    margin-bottom: 10px;
+    width: 800px;
+}
+
+
+nav {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+nav ol {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ol li {
+    margin-right: 15px;
+    color: #336cf2;
+}
+
+nav ol li:last-child {
+    margin-right: 0;
+}
+
+nav ol li:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer p a {
+    font-weight: bold;
+    margin-left: 8px;
+    color: #336cf2;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
 /* 
 .card{
     border: 1px solid rgb(0, 0, 0);
