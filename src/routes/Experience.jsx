@@ -127,7 +127,7 @@ const Experience = () => {
     </ul>
     
     <div className='resume'>
-    <a href="src/assets/BinhLeResume.pdf" target="_blank">view full resume</a>
+    <a href="assets/BinhLeResume.pdf" target="_blank">view full resume</a>
     </div>
     <Footer></Footer>
     </div>
