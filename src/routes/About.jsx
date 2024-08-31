@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="main-container">
     <Header></Header>
-    <img src="src/assets/icon.jpg"></img>
+    <img src="assets/icon.jpg"></img>
     <p>hi, i'm binh le. 20. vietnamese.</p>
     <p>i called this page binh letters cause of the word play i thought was funny</p>
     <p>i like to think of myself as a very passionate person. i mean it might just be me in my early twenties wanting to change the world and impact it in a positive light. but you'll find my talking about how cool people are for innovating and how smart people can be from looking at their legacy.</p>

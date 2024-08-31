@@ -7,7 +7,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/b
 const Resume = () => {
 
     return (
-      <Document file="src/assets/BinhLeResume.pdf">
+      <Document file="/assets/BinhLeResume.pdf">
         <Page pageNumber={1} />
       </Document>
     );

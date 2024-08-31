@@ -7,7 +7,7 @@ function App() {
   return(
     <div className="main-container">
       <Header></Header>
-      <img src="src/assets/nycsubway.jpg"></img>
+      <img src="assets/nycsubway.jpg"></img>
       <p>hi, i'm binh le.</p>
       <p>thanks for being here.</p>
       <p>i had a lot of trouble deciding on how my portfolio site should be but after a discussion with my web dev professor, and being really inspired from herman's blog i now think less is more.</p>

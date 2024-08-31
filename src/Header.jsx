@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Typewriter from 'typewriter-effect';
-import webpic from './assets/webpic.jpg';
 
 import { Link } from 'react-router-dom';
 export default function Header(props) {
   return (
     <>
-      <h1>binh's letters</h1>
+      <h1><a href="https://binhl3.github.io/">binh's letters</a></h1>
       <nav>
         <ol>
           <li><Link to="/">home</Link></li>
