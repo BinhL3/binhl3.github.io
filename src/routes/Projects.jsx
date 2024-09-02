@@ -7,6 +7,7 @@ const Projects = () => {
     <div className="main-container">
         <Header></Header>
         <ul>
+
           <li>
               <span className="date">2013 - present</span>
               <div className="content">
@@ -17,6 +18,19 @@ const Projects = () => {
               </span>
               <p className="description">amassed 1.3+ million followers by integrating cs education into engaging content for vietnamese teens. directed marketing strategies reaching 300+ million views with brands like tiktok, vng, acer, and vtc games.</p>
               <span className="technologies">youtube, tiktok, instagram, facebook, linkedin, marketing, content creation</span>
+              </div>
+          </li>
+        
+          <li>
+              <span className="date">aug 2024</span>
+              <div className="content">
+              <span className="role">
+                  <a href="https://binhl3.github.io/">
+                      personal website
+                  </a>
+              </span>
+              <p className="description">is this recursion</p>
+              <span className="technologies">react, javascript, html, css, node</span>
               </div>
           </li>
 

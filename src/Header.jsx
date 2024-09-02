@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Header(props) {
   return (
     <>
-      <h1><a href="https://binhl3.github.io/">binh's letters</a></h1>
+      <h1><a href="https://binhl3.github.io/">binh le</a></h1>
       <nav>
         <ol>
           <li><Link to="/">home</Link></li>
