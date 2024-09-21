@@ -8,11 +8,70 @@ function App() {
     <div className="main-container">
       <Header></Header>
       <img src="assets/nycsubway.jpg"></img>
-      <p>hi, i'm binh le.</p>
-      <p>thanks for being here! it means a lot to me.</p>
-      <p>i had a lot of trouble deciding on how my portfolio site should be but after a discussion with my web dev professor, and being really inspired from herman's blog i now think less is more.</p>
-      <p>i made this site to free myself from the a4 limits of traditional resumes.</p>
-      <p>oh. and im 20 years old. a cs major @ drexel</p>
+      <p>Interested in back-end development, machine learning, and content creation.</p>
+      <hr style={{border: 'none', height: '1px', backgroundColor: 'black'}} />
+      <div className="experience">
+        <img src="assets/google.png" alt="Google"/>
+        <div>
+            <h2>Google <span className="time"> 6/2024 — 9/2024</span> </h2>
+            <p>Software Engineering Fellow</p>
+        </div>
+    </div>
+    <div className="experience">
+        <img src="assets/dataing.jpg" alt="Dataing"/>
+        <div>
+            <h2>Dataing <span className="time"> 4/2024 — 9/2024</span></h2>
+            <p>Software Engineer Intern</p>
+        </div>
+    </div>
+
+    <div className="experience">
+        <img src="assets/cci.png" alt="Drexel CCI"/>
+        <div>
+            <h2>Drexel University <span className="time"> 9/2024 —</span></h2>
+            <p>Course Assistant</p>
+        </div>
+    </div>
+
+    <div className="experience">
+        <img src="assets/soar.jpg" alt="SOAR Lab"/>
+        <div>
+            <h2>SOAR Lab <span className="time"> 3/2024 — 10/2024</span></h2>
+            <p>Software Research Engineer</p>
+        </div>
+    </div>
+    <div className="experience">
+        <img src="assets/stanford.webp" alt="Stanford University"
+            />
+        <div>
+            <h2>Stanford University <span className="time"> 4/2024 — 6/2024</span></h2>
+            <p>Section Leader</p>
+        </div>
+    </div>
+    <div className="experience">
+        <img src="assets/meta.png" alt="Meta"/>
+        <div>
+            <h2>Meta <span className="time"> 1/2024 — 2/2024</span></h2>
+            <p>Software Engineering Fellow</p>
+        </div>
+    </div>
+    <div className="experience">
+        <img src="assets/vnpt.webp" alt="VNPT"/>
+        <div>
+            <h2>VNPT Technology <span className="time"> 4/2022 — 6/2022</span></h2>
+            <p>Software Engineer Intern</p>
+        </div>
+    </div>
+    
+    <div className="experience" style={{marginTop: '2.75em', paddingRight: '0em'}}>
+        <img src="assets/drexel.png" alt="VNPT"/>
+        <div>
+            <h2>Drexel University</h2>
+            <p>Bachelor of Science in Computer Science</p>
+
+        </div>
+    </div>
+
       <Footer></Footer>
     </div>
   );

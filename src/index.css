@@ -163,6 +163,60 @@ footer p a {
 footer p a:hover {
     text-decoration: underline;
 }
+
+
+.time {
+    font-family: var(--body-font);
+    font-size: 12px;
+    color: #4f4f4f;
+    opacity: 0.5;
+    font-weight: 400;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    text-align: right;
+}
+
+
+.experience:hover .time {
+    opacity: 1;
+}
+
+.experience {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1em;
+    position: relative;
+    padding-right: 7em;
+}
+
+.experience img {
+    width: 2.5em;
+    height: 2.5em;
+    margin-right: 1em;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+.experience div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.experience h2 {
+    color: var(--text-dark);
+    font-size: 1em;
+    margin: 0;
+}
+
+.experience p {
+    font-size: 1em;
+    color: var(--text-light);
+    margin: 0;
+}
 /* 
 .card{
     border: 1px solid rgb(0, 0, 0);
@@ -171,3 +225,4 @@ footer p a:hover {
 }
 
  */
+
