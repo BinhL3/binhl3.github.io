@@ -8,6 +8,19 @@ const Projects = () => {
         <Header></Header>
         <ul>
 
+            <li>
+              <span className="date">aug 2024 -</span>
+              <div className="content">
+              <span className="role">
+                  <a href="https://www.youtube.com/@binh" target="_blank" rel="noopener noreferrer">
+                      tu dien - vietnamese urbandictionary
+                  </a>
+              </span>
+              <p className="description">building a full-stack app providing accurate definitions and context for vietnamese slang, to reconnect and strengthen cultural ties.</p>
+              <span className="technologies">react, node.js, scikit-learn, express.js, aws, postgresql</span>
+              </div>
+          </li>
+
           <li>
               <span className="date">2013 - present</span>
               <div className="content">

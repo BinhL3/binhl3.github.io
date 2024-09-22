@@ -10,7 +10,7 @@ const Experience = () => {
     <h2>professional experience</h2>
     <ul>
     <li>
-            <span className="date">2024 - present</span>
+            <span className="date">mar - oct 2024</span>
             <div className="content">
             <span className="role"> 
                 <a href="https://soar-lab.github.io/" target="_blank" rel="noopener noreferrer">
