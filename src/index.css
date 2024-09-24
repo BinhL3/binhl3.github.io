@@ -18,7 +18,7 @@
   }
   
 .resume {
-    margin-top: 10px;
+    margin-top: 1.75em;
     color:#336cf2;
     font-size: 17px;
 }
@@ -150,7 +150,6 @@ nav ol li:hover {
 
 footer {
     margin-top: 20px;
-    text-align: center;
     font-size: 15px;
 }
 
@@ -184,6 +183,7 @@ footer p a:hover {
 .experience:hover .time {
     opacity: 1;
 }
+
 
 .experience {
     display: flex;

@@ -39,7 +39,7 @@ function App() {
         <img src="assets/cci.png" alt="Drexel CCI"/>
         <div>
             <h2>Drexel University <span className="time"> 9/2024 —</span></h2>
-            <p>Course Assistant</p>
+            <p>Teaching Assistant</p>
         </div>
     </div>
 
@@ -72,8 +72,11 @@ function App() {
             <p>Software Engineer Intern</p>
         </div>
     </div>
-    
-      <Footer></Footer>
+     
+    <div className='resume'>
+    <a href="assets/BinhLeResume.pdf" target="_blank">view full resume</a>
+    </div>
+    <Footer></Footer>
     </div>
   );
 }
