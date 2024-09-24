@@ -11,10 +11,10 @@ function App() {
       <p>Interested in back-end development, machine learning, and content creation.</p>
       <hr style={{border: 'none', height: '1px', backgroundColor: 'black'}} />
 
-    <div className="experience" style={{marginBottom: '1.75em', paddingRight: '0em'}}>
+    <div className="experience" style={{marginBottom: '1.75em'}}>
         <img src="assets/drexel.png" alt="Drexel"/>
         <div>
-            <h2>Drexel University<span className="time">Expected Graduation: 2025</span></h2>
+            <h2>Drexel University <span className="time">2025</span></h2>
             <p>Bachelor of Science in Computer Science</p>
         </div>
     </div>
