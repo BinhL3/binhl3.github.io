@@ -10,13 +10,23 @@ function App() {
       <img src="assets/nycsubway.jpg"></img>
       <p>Interested in back-end development, machine learning, and content creation.</p>
       <hr style={{border: 'none', height: '1px', backgroundColor: 'black'}} />
-      <div className="experience">
+
+    <div className="experience" style={{marginBottom: '1.75em', paddingRight: '0em'}}>
+        <img src="assets/drexel.png" alt="Drexel"/>
+        <div>
+            <h2>Drexel University<span className="time">Expected Graduation: 2025</span></h2>
+            <p>Bachelor of Science in Computer Science</p>
+        </div>
+    </div>
+
+    <div className="experience">
         <img src="assets/google.png" alt="Google"/>
         <div>
             <h2>Google <span className="time"> 6/2024 — 9/2024</span> </h2>
             <p>Software Engineering Fellow</p>
         </div>
     </div>
+
     <div className="experience">
         <img src="assets/dataing.jpg" alt="Dataing"/>
         <div>
@@ -63,15 +73,6 @@ function App() {
         </div>
     </div>
     
-    <div className="experience" style={{marginTop: '2.75em', paddingRight: '0em'}}>
-        <img src="assets/drexel.png" alt="VNPT"/>
-        <div>
-            <h2>Drexel University</h2>
-            <p>Bachelor of Science in Computer Science</p>
-
-        </div>
-    </div>
-
       <Footer></Footer>
     </div>
   );
