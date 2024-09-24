@@ -23,7 +23,7 @@ function App() {
         <img src="assets/google.png" alt="Google"/>
         <div>
             <h2>Google <span className="time"> 6/2024 — 9/2024</span> </h2>
-            <p>Software Engineering Fellow</p>
+            <p>Software Engineer Fellow</p>
         </div>
     </div>
 
@@ -62,7 +62,7 @@ function App() {
         <img src="assets/meta.png" alt="Meta"/>
         <div>
             <h2>Meta <span className="time"> 1/2024 — 2/2024</span></h2>
-            <p>Software Engineering Fellow</p>
+            <p>Software Engineer Fellow</p>
         </div>
     </div>
     <div className="experience">
