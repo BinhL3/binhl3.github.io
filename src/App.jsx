@@ -14,7 +14,7 @@ function App() {
     <div className="experience" style={{marginBottom: '1.75em'}}>
         <img src="assets/drexel.png" alt="Drexel"/>
         <div>
-            <h2>Drexel University <span className="time">2025</span></h2>
+            <h2>Drexel University <span className="time">12/2025</span></h2>
             <p>Bachelor of Science in Computer Science</p>
         </div>
     </div>
