@@ -47,7 +47,7 @@ function App() {
         <img src="assets/soar.jpg" alt="SOAR Lab"/>
         <div>
             <h2>SOAR Lab <span className="time"> 3/2024 — 10/2024</span></h2>
-            <p>Software Research Engineer</p>
+            <p>Research Engineer</p>
         </div>
     </div>
     <div className="experience">
