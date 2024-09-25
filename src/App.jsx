@@ -8,7 +8,7 @@ function App() {
     <div className="main-container">
       <Header></Header>
       <img src="assets/nycsubway.jpg"></img>
-      <p>Interested in back-end development, machine learning, and content creation.</p>
+      <p>Actively looking for SWE opportunities! Interested in back-end development, machine learning, and content creation.</p>
       <hr style={{border: 'none', height: '1px', backgroundColor: 'black'}} />
 
     <div className="experience" style={{marginBottom: '1.75em'}}>
