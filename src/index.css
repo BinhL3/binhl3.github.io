@@ -12,7 +12,9 @@
     padding: 30px;
 }
 
-
+.header-image {
+    border-radius: 5px;
+}
 .react-pdf__Page__textContent {
     display: none;
   }

@@ -7,7 +7,7 @@ function App() {
   return(
     <div className="main-container">
       <Header></Header>
-      <img src="assets/nycsubway.jpg"></img>
+      <img className="header-image"src="assets/nycsubway.jpg"></img>
       <p>Actively looking for SWE opportunities! Interested in back-end development, machine learning, and content creation.</p>
       <hr style={{border: 'none', height: '1px', backgroundColor: 'black'}} />
 

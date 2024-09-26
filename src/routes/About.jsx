@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="main-container">
     <Header></Header>
-    <img src="assets/icon.jpg"></img>
+    <img className="header-image"src="assets/icon.jpg"></img>
   
     <p>contact me: bql23@drexel.edu</p> 
     <hr style={{border: 'none', height: '1px', backgroundColor: 'black'}} />
