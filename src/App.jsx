@@ -9,8 +9,9 @@ function App() {
       <Header></Header>
       <img className="header-image" src="assets/nycsubway.jpg"></img>
       <p>
-        Actively looking for SWE opportunities! Interested in back-end
-        development, machine learning, and content creation.
+        Actively looking for SWE new grad and internship opportunities!
+        Interested in back-end development, machine learning, and content
+        creation.
       </p>
       <hr style={{ border: "none", height: "1px", backgroundColor: "black" }} />
 
@@ -18,7 +19,7 @@ function App() {
         <img src="assets/drexel.png" alt="Drexel" />
         <div>
           <h2>
-            Drexel University <span className="time">12/2025</span>
+            Drexel University <span className="time">9/2025</span>
           </h2>
           <p>Bachelor of Science in Computer Science</p>
         </div>
