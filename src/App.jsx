@@ -25,7 +25,7 @@ function App() {
         </div>
       </div>
 
-      <div className="experience">
+      {/* <div className="experience">
         <img src="assets/stealth.jpeg" alt="Hire Me" />
         <div>
           <h2>
@@ -49,7 +49,7 @@ function App() {
           </h2>
           <p>Software Engineer Intern</p>
         </div>
-      </div>
+      </div> */}
 
       <div className="experience">
         <img src="assets/google.png" alt="Google" />
