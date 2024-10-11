@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import Card from "./Card";
 import React, { useState, useEffect } from "react";
 
+// add drop down somehow
 function App() {
   return (
     <div className="main-container">
@@ -14,7 +15,6 @@ function App() {
         creation.
       </p>
       <hr style={{ border: "none", height: "1px", backgroundColor: "black" }} />
-
       <div className="experience" style={{ marginBottom: "1.75em" }}>
         <img src="assets/drexel.png" alt="Drexel" />
         <div>
@@ -24,7 +24,6 @@ function App() {
           <p>Bachelor of Science in Computer Science</p>
         </div>
       </div>
-
       <div className="experience">
         <img src="assets/stealth.jpeg" alt="Hire Me" />
         <div>
@@ -41,24 +40,6 @@ function App() {
           <p>Software Engineer Intern</p>
         </div>
       </div>
-
-      <div className="experience">
-        <img src="assets/stealth.jpeg" alt="Hire Me" />
-        <div>
-          <h2>
-            <a
-              href="https://www.linkedin.com/in/binhlee/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Your Company 😎
-            </a>
-            <span className="time"> 1/2025 — 4/2025</span>{" "}
-          </h2>
-          <p>Software Engineer Intern</p>
-        </div>
-      </div>
-
       <div className="experience">
         <img src="assets/google.png" alt="Google" />
         <div>
@@ -68,7 +49,6 @@ function App() {
           <p>Software Engineer Fellow</p>
         </div>
       </div>
-
       <div className="experience">
         <img src="assets/dataing.jpg" alt="Dataing" />
         <div>
@@ -78,7 +58,6 @@ function App() {
           <p>Software Engineer Intern</p>
         </div>
       </div>
-
       <div className="experience">
         <img src="assets/cci.png" alt="Drexel CCI" />
         <div>
@@ -88,7 +67,6 @@ function App() {
           <p>Teaching Assistant</p>
         </div>
       </div>
-
       <div className="experience">
         <img src="assets/soar.jpg" alt="SOAR Lab" />
         <div>
@@ -125,7 +103,6 @@ function App() {
           <p>Software Engineer Intern</p>
         </div>
       </div>
-
       <div className="resume">
         <a href="assets/BinhLeResume.pdf" target="_blank">
           view full resume
