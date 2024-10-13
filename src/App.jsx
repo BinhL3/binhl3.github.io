@@ -25,11 +25,15 @@ function App() {
         </div>
       </div>
 
-      {/* <div className="experience">
+      <div className="experience">
         <img src="assets/stealth.jpeg" alt="Hire Me" />
         <div>
           <h2>
-            <a href="https://www.linkedin.com/in/binhlee/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/binhlee/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Your Company 😎
             </a>
             <span className="time"> 4/2025 — 9/2025</span>{" "}
@@ -42,14 +46,18 @@ function App() {
         <img src="assets/stealth.jpeg" alt="Hire Me" />
         <div>
           <h2>
-            <a href="https://www.linkedin.com/in/binhlee/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/binhlee/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Your Company 😎
             </a>
             <span className="time"> 1/2025 — 4/2025</span>{" "}
           </h2>
           <p>Software Engineer Intern</p>
         </div>
-      </div> */}
+      </div>
 
       <div className="experience">
         <img src="assets/google.png" alt="Google" />
