@@ -37,7 +37,7 @@ function App() {
             </a>
             <span className="time"> 4/2025 — 9/2025</span>{" "}
           </h2>
-          <p>Software Engineer Intern</p>
+          <p>Software Engineer Co-op</p>
         </div>
       </div>
       <div className="experience">
