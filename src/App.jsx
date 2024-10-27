@@ -33,9 +33,9 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Your Company 😎
+              Your Company
             </a>
-            <span className="time"> 4/2025 — 9/2025</span>{" "}
+            <span className="time"> 1/2025 — 9/2025</span>{" "}
           </h2>
           <p>Software Engineer Co-op</p>
         </div>
