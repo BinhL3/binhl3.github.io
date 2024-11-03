@@ -33,11 +33,11 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Your Company
+              Add Your Company Here :)
             </a>
             <span className="time"> 1/2025 — 9/2025</span>{" "}
           </h2>
-          <p>Software Engineer Co-op</p>
+          <p>Software Engineer</p>
         </div>
       </div>
       <div className="experience">
