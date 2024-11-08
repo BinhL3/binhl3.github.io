@@ -10,9 +10,9 @@ function App() {
       <Header></Header>
       <img className="header-image" src="assets/nycsubway.jpg"></img>
       <p>
-        Actively looking for SWE new grad and internship opportunities!
-        Interested in back-end development, machine learning, and content
-        creation.
+        I'm Binh Le! I'm actively looking for Software Engineering new grad and
+        internship opportunities in 2025! Interested in back-end development,
+        machine learning, and content creation.
       </p>
       <hr style={{ border: "none", height: "1px", backgroundColor: "black" }} />
       <div className="experience" style={{ marginBottom: "1.75em" }}>
