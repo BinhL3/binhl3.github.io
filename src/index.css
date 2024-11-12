@@ -14,6 +14,8 @@
 
 .header-image {
     border-radius: 5px;
+    width: 800px;
+
 }
 .react-pdf__Page__textContent {
     display: none;
@@ -227,4 +229,14 @@ footer p a:hover {
 }
 
  */
+
+html {
+    overflow-y: scroll;
+    margin-left: calc(100vw - 100%);
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
 

@@ -10,7 +10,7 @@ export default function Header(props) {
           <li><Link to="/">home</Link></li>
           <li><Link to="/experience">experience</Link></li>
           <li><Link to="/projects">projects</Link></li>
-          <li><Link to="/about">about me</Link></li>
+          <li><Link to="/about">about</Link></li>
         </ol>
       </nav>
     </>
