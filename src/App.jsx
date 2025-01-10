@@ -25,19 +25,13 @@ function App() {
         </div>
       </div>
       <div className="experience">
-        <img src="assets/stealth.jpeg" alt="Hire Me" />
+        <img src="assets/bentley.png" alt="Hire Me" />
         <div>
           <h2>
-            <a
-              href="https://www.linkedin.com/in/binhlee/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Hire Me To Add Your Company :)
-            </a>
-            <span className="time"> 1/2025 — 9/2025</span>{" "}
+            Bentley Systems
+            <span className="time"> 4/2025 — 9/2025</span>{" "}
           </h2>
-          <p>Software Engineer</p>
+          <p>Software Engineer Intern</p>
         </div>
       </div>
       <div className="experience">
