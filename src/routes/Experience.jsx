@@ -10,6 +10,23 @@ const Experience = () => {
       <h2>professional experience</h2>
       <ul>
         <li>
+          <span className="date">mar - sep 2025</span>
+          <div className="content">
+            <span className="role">
+              <a
+                href="https://bentley.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                software engineer co-op @ bentley systems
+              </a>
+            </span>
+            <p className="description">incoming software engineer intern</p>
+            <span className="technologies">infrastructure</span>
+          </div>
+        </li>
+
+        <li>
           <span className="date">apr - sep 2024</span>
           <div className="content">
             <span className="role">
