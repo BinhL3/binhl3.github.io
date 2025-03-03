@@ -22,7 +22,24 @@ const Experience = () => {
               </a>
             </span>
             <p className="description">incoming software engineer intern</p>
-            <span className="technologies">infrastructure</span>
+            <span className="technologies">infrastructure engineering</span>
+          </div>
+        </li>
+
+        <li>
+          <span className="date">jan - mar 2025</span>
+          <div className="content">
+            <span className="role">
+              <a
+                href="https://codeinplace.stanford.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                marketing + outreach intern @ stanford
+              </a>
+            </span>
+            <p className="description">generate online content and expose more students to free online cs education</p>
+            <span className="technologies">passion, cs knowledge, creativity</span>
           </div>
         </li>
 

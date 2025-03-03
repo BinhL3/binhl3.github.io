@@ -10,28 +10,49 @@ function App() {
       <Header></Header>
       <img className="header-image" src="assets/nycsubway.jpg"></img>
       <p>
-        I'm Binh Le! I'm actively looking for Software Engineering new grad and
-        internship opportunities in 2025! Interested in back-end development,
-        machine learning, and content creation.
+        I'm Binh Le! A Computer Science senior at Drexel University. Interested in back-end development,
+        machine learning, and content creation. 
+      </p>
+      <p>
+        🚨 Actively looking for Software Engineering new graduate opportunities in 2025 🚨
       </p>
       <hr style={{ border: "none", height: "1px", backgroundColor: "black" }} />
+      
       <div className="experience" style={{ marginBottom: "1.75em" }}>
         <img src="assets/drexel.png" alt="Drexel" />
         <div>
           <h2>
-            Drexel University <span className="time">9/2025</span>
+            Drexel University <span className="time">6/2025</span>
           </h2>
           <p>Bachelor of Science in Computer Science</p>
         </div>
       </div>
       <div className="experience">
-        <img src="assets/bentley.png" alt="Hire Me" />
+        <img src="assets/stealth.jpeg" alt="Hire Me" />
+        <div>
+          <h2>
+            This Could Be Your Company :) <span className="time"> 9/2025 —</span>
+          </h2>
+          <p>Software Engineer</p>
+        </div>
+      </div>
+      <div className="experience">
+        <img src="assets/bentley.png" alt="Bentley" />
         <div>
           <h2>
             Bentley Systems
-            <span className="time"> 4/2025 — 9/2025</span>{" "}
+            <span className="time"> 3/2025 — 9/2025</span>{" "}
           </h2>
           <p>Software Engineer Intern</p>
+        </div>
+      </div>
+      <div className="experience">
+        <img src="assets/stanford.webp" alt="Stanford School of Engineering" />
+        <div>
+          <h2>
+            Stanford University <span className="time"> 1/2025 — 3/2025</span>
+          </h2>
+          <p>Marketing Intern</p>
         </div>
       </div>
       <div className="experience">
