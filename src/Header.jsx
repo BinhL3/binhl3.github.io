@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { FaLinkedin, FaGithub, FaMailBulk } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaMailBulk, FaTwitter } from 'react-icons/fa';
 import './index.css';
+import { FaX, FaXTwitter } from 'react-icons/fa6';
 
 export default function Header(props) {
   return (
@@ -16,8 +17,11 @@ export default function Header(props) {
             <a className="headerIcon" href="https://github.com/binhl3" target="_blank" rel="noopener noreferrer">
               <FaGithub size={24} />
             </a>
-            <a className="headerIcon" href="mailto:bql23@drexel.edu" target="_blank" rel="noopener noreferrer">
+            {/* <a className="headerIcon" href="mailto:bql23@drexel.edu" target="_blank" rel="noopener noreferrer">
               <FaMailBulk size={24} />
+            </a> */}
+            <a className="headerIcon" href="https://twitter.com/_binhle" target="_blank" rel="noopener noreferrer">
+              <FaXTwitter size={24} />
             </a>
           </div>
         </h1>
