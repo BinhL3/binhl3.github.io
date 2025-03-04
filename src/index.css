@@ -118,8 +118,27 @@ h1 {
     margin-bottom: 10px;
 }
 
-h1:hover {
-    color:#336cf2
+.headerTitle:hover {
+    color: #336cf2;
+}
+.headerStyle {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.iconContainer {
+    display: flex;
+}
+
+.headerIcon {
+    margin-left: 10px;
+    color: inherit;
+}
+
+.headerIcon:hover {
+    color: #336cf2;
 }
 
 img {
@@ -240,3 +259,11 @@ body {
     overflow-x: hidden;
 }
 
+.hire-me {
+  cursor: pointer; 
+  transition: color 0.3s ease;
+}
+
+.hire-me:hover {
+    color: #336cf2;
+}

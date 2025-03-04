@@ -5,16 +5,27 @@ import React, { useState, useEffect } from "react";
 
 // add drop down somehow
 function App() {
+
+  const [showCopiedModal, setShowCopiedModal] = useState(false);
+
+  const handleCopyClick = () => {
+    navigator.clipboard.writeText('binhlequoc09@gmail.com')
+    setShowCopiedModal(true);
+  }
+
+  const closeModal = () => {
+    setShowCopiedModal(false);
+  }
+
   return (
     <div className="main-container">
       <Header></Header>
       <img className="header-image" src="assets/nycsubway.jpg"></img>
       <p>
-        I'm Binh Le! A Computer Science senior at Drexel University. Interested in back-end development,
-        machine learning, and content creation. 
+        I'm Binh Le! A Computer Science senior at Drexel University. Interested in fullstack/backend development, ai/ml, and content creation. 
       </p>
       <p>
-        🚨 Actively looking for Software Engineering new graduate opportunities in 2025 🚨
+        🚨 Actively looking for Software Engineering new graduate opportunities starting 9/2025 🚨
       </p>
       <hr style={{ border: "none", height: "1px", backgroundColor: "black" }} />
       
@@ -31,9 +42,10 @@ function App() {
         <img src="assets/stealth.jpeg" alt="Hire Me" />
         <div>
           <h2>
-            This Could Be Your Company :) <span className="time"> 9/2025 —</span>
+            This Could Be Your Company :)
+            <span className="time"> 9/2025 —</span>
           </h2>
-          <p>Software Engineer</p>
+          <p>New Grad Software Engineer</p>
         </div>
       </div>
       <div className="experience">
@@ -124,6 +136,7 @@ function App() {
         </a>
       </div>
       <Footer></Footer>
+
     </div>
   );
 }
