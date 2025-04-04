@@ -6,23 +6,12 @@ import React, { useState, useEffect } from "react";
 // add drop down somehow
 function App() {
 
-  const [showCopiedModal, setShowCopiedModal] = useState(false);
-
-  const handleCopyClick = () => {
-    navigator.clipboard.writeText('binhlequoc09@gmail.com')
-    setShowCopiedModal(true);
-  }
-
-  const closeModal = () => {
-    setShowCopiedModal(false);
-  }
-
   return (
     <div className="main-container">
       <Header></Header>
       <img className="header-image" src="assets/nycsubway.jpg"></img>
       <p>
-        I'm Binh Le! A Computer Science senior at Drexel University. Interested in fullstack/backend development, ai/ml, and content creation. 
+        I'm Binh Le! A Computer Science senior at Drexel University. Interested in fullstack/backend development, AI/ML, and content creation. 
       </p>
       <p>
         🚨 Actively looking for Software Engineering new graduate opportunities starting 9/2025 🚨
