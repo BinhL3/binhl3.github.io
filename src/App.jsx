@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="main-container">
       <Header></Header>
-      <img className="header-image" src="assets/nycsubway.jpg"></img>
+      <img className="header-image" src="assets/nycsubway.jpg" loading="lazy" alt="NYC Subway" />
       <p>
         I'm Binh Le! A Computer Science senior at Drexel University. Interested in fullstack/backend development, AI/ML, and content creation. 
       </p>
@@ -19,7 +19,7 @@ function App() {
       <hr style={{ border: "none", height: "1px", backgroundColor: "black" }} />
       
       <div className="experience" style={{ marginBottom: "1.75em" }}>
-        <img src="assets/drexel.png" alt="Drexel" />
+        <img src="assets/drexel.png" alt="Drexel" loading="lazy" />
         <div>
           <h2>
             Drexel University <span className="time">6/2025</span>
@@ -28,7 +28,7 @@ function App() {
         </div>
       </div>
       <div className="experience">
-        <img src="assets/stealth.jpeg" alt="Hire Me" />
+        <img src="assets/stealth.jpeg" alt="Hire Me" loading="lazy" />
         <div>
           <h2>
             This Could Be Your Company :)
