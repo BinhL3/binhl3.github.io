@@ -575,3 +575,23 @@ video {
 }
 
  */
+
+.achievements {
+  list-style-type: disc;
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.technologies {
+  display: inline-block;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 0.25em;
+}
+
+.description {
+  font-weight: 500;
+  margin-bottom: 0.25em;
+}

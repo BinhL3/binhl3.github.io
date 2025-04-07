@@ -21,8 +21,13 @@ const Experience = () => {
                 software engineer co-op @ bentley systems
               </a>
             </span>
-            <p className="description">incoming software engineer intern</p>
-            <span className="technologies">infrastructure engineering</span>
+            <p className="description">software engineer intern (platforms)</p>
+            <p className="description">
+              developing iTwin Viewer 5.0, a cloud-based infrastructure visualization platform. 
+              reduced internal tool latency by 65% (2000ms → 700ms) through implementing parallel HTTP schema fetches. 
+              optimized client-side state hydration, cutting cold start time from 6+ seconds to near zero.
+            </p>
+            <span className="technologies">react.js · typescript · c++</span>
           </div>
         </li>
 
