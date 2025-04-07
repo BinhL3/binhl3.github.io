@@ -21,7 +21,6 @@ const Experience = () => {
                 software engineer co-op @ bentley systems
               </a>
             </span>
-            <p className="description">software engineer intern (platforms)</p>
             <p className="description">
               developing iTwin Viewer 5.0, a cloud-based infrastructure visualization platform. 
               reduced internal tool latency by 65% (2000ms → 700ms) through implementing parallel HTTP schema fetches. 
