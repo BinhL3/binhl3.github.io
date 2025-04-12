@@ -22,9 +22,11 @@ const Experience = () => {
               </a>
             </span>
             <p className="description">
-              developing iTwin Viewer 5.0, a cloud-based infrastructure visualization platform. 
-              reduced internal tool latency by 65% (2000ms → 700ms) through implementing parallel HTTP schema fetches. 
-              optimized client-side state hydration, cutting cold start time from 6+ seconds to near zero.
+              developing iTwin Viewer 5.0, a cloud-based infrastructure
+              visualization platform. reduced internal tool latency by 65%
+              (2000ms → 700ms) through implementing parallel HTTP schema
+              fetches. optimized client-side state hydration, cutting cold start
+              time from 6+ seconds to near zero.
             </p>
             <span className="technologies">react.js · typescript · c++</span>
           </div>
@@ -42,8 +44,13 @@ const Experience = () => {
                 marketing + outreach intern @ stanford
               </a>
             </span>
-            <p className="description">generate online content and expose more students to free online cs education</p>
-            <span className="technologies">passion, cs knowledge, creativity</span>
+            <p className="description">
+              generate online content and expose more students to free online cs
+              education
+            </p>
+            <span className="technologies">
+              passion, cs knowledge, creativity
+            </span>
           </div>
         </li>
 
@@ -243,7 +250,7 @@ const Experience = () => {
       </ul>
 
       <div className="resume">
-        <a href="assets/BinhLeResume.pdf" target="_blank">
+        <a href="assets/BinhLe_Resume.pdf" target="_blank">
           view full resume
         </a>
       </div>

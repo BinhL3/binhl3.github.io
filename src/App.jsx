@@ -5,19 +5,25 @@ import React, { useState, useEffect } from "react";
 
 // add drop down somehow
 function App() {
-
   return (
     <div className="main-container">
       <Header></Header>
-      <img className="header-image" src="assets/nycsubway.jpg" loading="lazy" alt="NYC Subway" />
+      <img
+        className="header-image"
+        src="assets/nycsubway.jpg"
+        loading="lazy"
+        alt="NYC Subway"
+      />
       <p>
-        I'm Binh Le! A Computer Science senior at Drexel University. Interested in fullstack/backend development, AI/ML, and content creation. 
+        I'm Binh Le! A Computer Science senior at Drexel University. Interested
+        in fullstack/backend development, AI/ML, and content creation.
       </p>
       <p>
-        🚨 Actively looking for Software Engineering new graduate opportunities starting 9/2025 🚨
+        🚨 Actively looking for Software Engineering new graduate opportunities
+        starting 9/2025 🚨
       </p>
       <hr style={{ border: "none", height: "1px", backgroundColor: "black" }} />
-      
+
       <div className="experience" style={{ marginBottom: "1.75em" }}>
         <img src="assets/drexel.png" alt="Drexel" loading="lazy" />
         <div>
@@ -120,12 +126,11 @@ function App() {
         </div>
       </div>
       <div className="resume">
-        <a href="assets/BinhLeResume.pdf" target="_blank">
+        <a href="assets/BinhLe_Resume.pdf" target="_blank">
           view full resume
         </a>
       </div>
       <Footer></Footer>
-
     </div>
   );
 }
