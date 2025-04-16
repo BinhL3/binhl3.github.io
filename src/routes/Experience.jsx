@@ -22,7 +22,7 @@ const Experience = () => {
               </a>
             </span>
             <p className="description">
-              developing iTwin Viewer 5.0, a cloud-based infrastructure
+              developing iTwin.js 5.0, a cloud-based infrastructure
               visualization platform. reduced internal tool latency by 65%
               (2000ms → 700ms) through implementing parallel HTTP schema
               fetches. optimized client-side state hydration, cutting cold start
