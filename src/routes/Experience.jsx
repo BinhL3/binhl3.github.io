@@ -10,7 +10,7 @@ const Experience = () => {
       <h2>professional experience</h2>
       <ul>
         <li>
-          <span className="date">mar - sep 2025</span>
+          <span className="date">mar 2025 – present</span>
           <div className="content">
             <span className="role">
               <a
@@ -18,15 +18,23 @@ const Experience = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                software engineer co-op @ bentley systems
+                software engineer intern (platforms - imodel schema team) @
+                bentley systems
               </a>
             </span>
             <p className="description">
-              developing iTwin.js 5.0, a cloud-based infrastructure
-              visualization platform. reduced internal tool latency by 65%
-              (2000ms → 700ms) through implementing parallel HTTP schema
-              fetches. optimized client-side state hydration, cutting cold start
-              time from 6+ seconds to near zero.
+              developing iTwin’s WiMSE, the Web iModel Schema Explorer
+              application to view schemas, in TypeScript and C++.
+              <br />
+              reduced internal tool latency by 65% (2000ms → 700ms) through
+              implementing parallel HTTP schema fetches.
+              <br />
+              optimized client-side state hydration, cutting cold start time
+              from 6+ seconds to near zero, boosting responsiveness for
+              thousands of engineers.
+              <br />
+              implemented sorted schema-layer grouping and extended test
+              coverage for parsing logic and UI rendering behavior.
             </p>
             <span className="technologies">react.js · typescript · c++</span>
           </div>
