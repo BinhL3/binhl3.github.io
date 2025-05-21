@@ -6,8 +6,6 @@ const Experience = () => {
   return (
     <div className="main-container">
       <Header></Header>
-
-      <h2>professional experience</h2>
       <ul>
         <li>
           <span className="date">mar 2025 – present</span>
@@ -18,25 +16,33 @@ const Experience = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                software engineer intern (platforms - imodel schema team) @
-                bentley systems
+                software engineer intern @ bentley systems
               </a>
             </span>
             <p className="description">
-              developing iTwin’s WiMSE, the Web iModel Schema Explorer
-              application to view schemas, in TypeScript and C++.
+              enabled rapid schema debugging for 2000+ engineers by building
+              WiMSE, a web tool visualizing iModel schemas.
               <br />
               reduced internal tool latency by 65% (2000ms → 700ms) through
               implementing parallel HTTP schema fetches.
               <br />
-              optimized client-side state hydration, cutting cold start time
-              from 6+ seconds to near zero, boosting responsiveness for
-              thousands of engineers.
+              cut cold start time from 6+ sec to near zero by optimizing state
+              hydration, improving app responsiveness at scale.
               <br />
-              implemented sorted schema-layer grouping and extended test
-              coverage for parsing logic and UI rendering behavior.
+              improved engineering velocity by 140% by migrating from Azure
+              DevOps to GitHub, automating CI/CD workflows, and standardizing
+              code review ownership.
+              <br />
+              leveraged schema UI refinements to boost navigation clarity and
+              minimize UI bugs, enhancing navigation efficiency by 20%.
+              <br />
+              reducing release risk and future regressions by integrating
+              Threagile checks into CI and expanding automated test coverage for
+              frontend components.
             </p>
-            <span className="technologies">react.js · typescript · c++</span>
+            <span className="technologies">
+              react.js · typescript · c++ · github actions · azure devops
+            </span>
           </div>
         </li>
 
