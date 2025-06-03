@@ -1,7 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
-import Card from "./Card";
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 // add drop down somehow
 function App() {
@@ -16,7 +15,7 @@ function App() {
       />
       <p>
         I'm Binh Le! A Computer Science senior at Drexel University. Interested
-        in fullstack/backend development, AI/ML, and content creation.
+        in fullstack/backend development, applied AI/ML, and content creation.
       </p>
       <p>
         🚨 Actively looking for Software Engineering new graduate opportunities
