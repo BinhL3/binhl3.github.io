@@ -12,11 +12,11 @@ const Projects = () => {
           <div className="content">
             <span className="role">
               <a
-                href="https://www.youtube.com/@binh"
+                href="https://www.hieuchua.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                tu dien - vietnamese urbandictionary
+                hieu chua - vietnamese urbandictionary
               </a>
             </span>
             <p className="description">
