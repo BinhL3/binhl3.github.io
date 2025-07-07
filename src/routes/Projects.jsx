@@ -8,7 +8,7 @@ const Projects = () => {
       <Header></Header>
       <ul>
         <li>
-          <span className="date">aug 2024 - </span>
+          <span className="date">Jun 2024 - Present</span>
           <div className="content">
             <span className="role">
               <a
@@ -20,12 +20,14 @@ const Projects = () => {
               </a>
             </span>
             <p className="description">
-              building a full-stack app providing accurate definitions and
-              context for vietnamese slang, to reconnect and strengthen cultural
-              ties.
+              scaled to 3,000+ monthly users by delivering culturally authentic,
+              community-driven slang definitions. engineered an ai-powered
+              search flow, achieving 95% user satisfaction with accurate and
+              context-rich outputs.
             </p>
             <span className="technologies">
-              react, node.js, scikit-learn, express.js, aws, postgresql
+              react, node.js, scikit-learn, express.js, fly.io, postgresql, exa
+              ai, sonar
             </span>
           </div>
         </li>
