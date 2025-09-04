@@ -8,7 +8,7 @@ const Projects = () => {
       <Header></Header>
       <ul>
         <li>
-          <span className="date">Jun 2024 - Present</span>
+          <span className="date">jun 2024 - present</span>
           <div className="content">
             <span className="role">
               <a
@@ -33,7 +33,7 @@ const Projects = () => {
         </li>
 
         <li>
-          <span className="date">Sep 2024</span>
+          <span className="date">sep 2024</span>
           <div className="content">
             <span className="role">
               <a
