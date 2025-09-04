@@ -13,13 +13,9 @@ function App() {
         loading="lazy"
         alt="NYC Subway"
       />
+      <p>I'm Binh Le. 21, Software Engineer x YouTuber</p>
       <p>
-        I'm Binh Le! A Computer Science senior at Drexel University. Interested
-        in fullstack/backend development, applied AI/ML, and content creation.
-      </p>
-      <p>
-        🚨 Actively looking for Software Engineering new graduate opportunities
-        starting 9/2025 🚨
+        🚨 looking for fullstack/backend software engineering opportunities 🚨
       </p>
       <hr style={{ border: "none", height: "1px", backgroundColor: "black" }} />
 
@@ -27,7 +23,7 @@ function App() {
         <img src="assets/drexel.png" alt="Drexel" loading="lazy" />
         <div>
           <h2>
-            Drexel University <span className="time">6/2025</span>
+            Drexel University <span className="time">Graduated 9/2025 🎓</span>
           </h2>
           <p>Bachelor of Science in Computer Science</p>
         </div>
@@ -39,7 +35,16 @@ function App() {
             This Could Be Your Company :)
             <span className="time"> 9/2025 —</span>
           </h2>
-          <p>New Grad Software Engineer</p>
+          <p>Software Engineer</p>
+        </div>
+      </div>
+      <div className="experience">
+        <img src="assets/stanford.webp" alt="Stanford School of Engineering" />
+        <div>
+          <h2>
+            Stanford University<span className="time"> 9/2025 —</span>
+          </h2>
+          <p>Software Engineer & Growth</p>
         </div>
       </div>
       <div className="experience">
@@ -83,7 +88,7 @@ function App() {
         <img src="assets/cci.png" alt="Drexel CCI" />
         <div>
           <h2>
-            Drexel University <span className="time"> 9/2024 —</span>
+            Drexel University <span className="time"> 9/2024 — 9/2025</span>
           </h2>
           <p>Teaching Assistant</p>
         </div>
