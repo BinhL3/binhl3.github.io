@@ -39,15 +39,6 @@ function App() {
         </div>
       </div>
       <div className="experience">
-        <img src="assets/stanford.webp" alt="Stanford School of Engineering" />
-        <div>
-          <h2>
-            Stanford University<span className="time"> 9/2025 —</span>
-          </h2>
-          <p>Software Engineer & Growth</p>
-        </div>
-      </div>
-      <div className="experience">
         <img src="assets/bentley.png" alt="Bentley" />
         <div>
           <h2>
