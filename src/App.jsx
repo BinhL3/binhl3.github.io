@@ -13,7 +13,7 @@ function App() {
         loading="lazy"
         alt="NYC Subway"
       />
-      <p>I'm Binh Le. 21, Software Engineer x YouTuber</p>
+      <p>21. Software Engineer x YouTuber</p>
       <p>
         🚨 looking for fullstack/backend software engineering opportunities 🚨
       </p>
