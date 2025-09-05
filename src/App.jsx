@@ -13,13 +13,9 @@ function App() {
         loading="lazy"
         alt="NYC Subway"
       />
-      <p>21. Software Engineer x YouTuber</p>
-      <p>
-        🚨 looking for fullstack/backend software engineering opportunities 🚨
-      </p>
-      <hr style={{ border: "none", height: "1px", backgroundColor: "black" }} />
+      <p>21. Software Engineer x Content Creator</p>
 
-      <div className="experience" style={{ marginBottom: "1.75em" }}>
+      <div className="experience">
         <img src="assets/drexel.png" alt="Drexel" loading="lazy" />
         <div>
           <h2>
@@ -28,6 +24,21 @@ function App() {
           <p>Bachelor of Science in Computer Science</p>
         </div>
       </div>
+
+      <div className="experience" style={{ marginBottom: "1em" }}>
+        <img
+          src="assets/profilepic.jpg"
+          alt="youtube profile picture"
+          loading="lazy"
+        />
+        <div>
+          <h2>
+            Content Creator<span className="time">2012 -</span>
+          </h2>
+          <p>1.3m+ followers</p>
+        </div>
+      </div>
+      <hr style={{ border: "none", height: "1px", backgroundColor: "black" }} />
       <div className="experience">
         <img src="assets/stealth.jpeg" alt="Hire Me" loading="lazy" />
         <div>
@@ -112,7 +123,7 @@ function App() {
         </div>
       </div>
       <div className="experience">
-        <img src="assets/vnpt.webp" alt="VNPT" />
+        <img src="assets/vnpt.svg" alt="VNPT" />
         <div>
           <h2>
             VNPT Technology <span className="time"> 4/2022 — 6/2022</span>
