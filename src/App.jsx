@@ -13,7 +13,21 @@ function App() {
         loading="lazy"
         alt="NYC Subway"
       />
-      <p>21. Software Engineer x Content Creator</p>
+      <p>21. Software Engineer x Content Creator. Hire me.</p>
+
+      <div className="experience">
+        <img
+          src="assets/live_the_residency_logo.jpg"
+          alt="The Residency"
+          loading="lazy"
+        />
+        <div>
+          <h2>
+            The Residency<span className="time">9/2025 -</span>
+          </h2>
+          <p>Building of Stuff in Computer Science</p>
+        </div>
+      </div>
 
       <div className="experience">
         <img src="assets/drexel.png" alt="Drexel" loading="lazy" />
