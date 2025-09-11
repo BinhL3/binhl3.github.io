@@ -66,6 +66,9 @@ export default function Header(props) {
           <li>
             <Link to="/about">about</Link>
           </li>
+          <li>
+            <Link to="/goals">goals</Link>
+          </li>
         </ol>
       </nav>
     </>

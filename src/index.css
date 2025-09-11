@@ -112,6 +112,35 @@ p {
     color: rgb(65, 65, 65);
 }
 
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: rgb(65, 65, 65);
+}
+
+.intro-left {
+    margin-right: 12px;
+}
+
+.intro-right {
+    margin-left: auto;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        display: block;
+    }
+    .intro-right {
+        margin-left: 0;
+        margin-top: 6px;
+        display: block;
+    }
+}
+
 h1 {
     font-size: 30px;
     font-weight: bold;

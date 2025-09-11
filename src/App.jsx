@@ -79,7 +79,7 @@ function App() {
           <h2>
             Stanford University <span className="time"> 1/2025 — 3/2025</span>
           </h2>
-          <p>Marketing Intern</p>
+          <p>Growth Intern</p>
         </div>
       </div>
       <div className="experience">
