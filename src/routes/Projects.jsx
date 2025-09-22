@@ -8,7 +8,7 @@ const Projects = () => {
       <Header></Header>
       <ul>
         <li>
-          <span className="date">jun 2024 - present</span>
+          <span className="date">jun 2024 - </span>
           <div className="content">
             <span className="role">
               <a

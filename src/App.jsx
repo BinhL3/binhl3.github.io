@@ -2,7 +2,20 @@ import Header from "./Header";
 import Footer from "./Footer";
 import React from "react";
 
-// add drop down somehow
+function ageCalculator(birthday) {
+  const today = new Date();
+  const birthDate = new Date(birthday);
+  let age = today.getFullYear() - birthDate.getFullYear();
+  const monthDiff = today.getMonth() - birthDate.getMonth();
+  if (
+    monthDiff < 0 ||
+    (monthDiff === 0 && today.getDate() < birthDate.getDate())
+  ) {
+    age--;
+  }
+  return age;
+}
+
 function App() {
   return (
     <div className="main-container">
@@ -13,29 +26,16 @@ function App() {
         loading="lazy"
         alt="NYC Subway"
       />
-      <p>21. Software Engineer x Content Creator. Hire me.</p>
+      <p>{ageCalculator("2003-09-29")}. Software Engineer x Content Creator</p>
 
       <div className="experience">
-        <img
-          src="assets/live_the_residency_logo.jpg"
-          alt="The Residency"
-          loading="lazy"
-        />
+        <img src="assets/remitly.png" alt="Hire Me" loading="lazy" />
         <div>
           <h2>
-            The Residency<span className="time">9/2025 -</span>
+            Remitly
+            <span className="time"> 10/2025 —</span>
           </h2>
-          <p>Building of Stuff in Computer Science</p>
-        </div>
-      </div>
-
-      <div className="experience">
-        <img src="assets/drexel.png" alt="Drexel" loading="lazy" />
-        <div>
-          <h2>
-            Drexel University <span className="time">Graduated 9/2025 🎓</span>
-          </h2>
-          <p>Bachelor of Science in Computer Science</p>
+          <p>Software Development Engineer I</p>
         </div>
       </div>
 
@@ -52,17 +52,31 @@ function App() {
           <p>1.3m+ followers</p>
         </div>
       </div>
+
       <hr style={{ border: "none", height: "1px", backgroundColor: "black" }} />
+
       <div className="experience">
-        <img src="assets/stealth.jpeg" alt="Hire Me" loading="lazy" />
+        <img src="assets/locked.png" alt="Hire Me" loading="lazy" />
         <div>
           <h2>
-            This Could Be Your Company :)
-            <span className="time"> 9/2025 —</span>
+            Locked
+            <span className="time"> ?/202? — ?/203?</span>
           </h2>
-          <p>Software Engineer</p>
+          <p>Software Engineer ?</p>
         </div>
       </div>
+
+      <div className="experience">
+        <img src="assets/remitly.png" alt="Hire Me" loading="lazy" />
+        <div>
+          <h2>
+            Remitly
+            <span className="time"> 10/2025 —</span>
+          </h2>
+          <p>Software Development Engineer I</p>
+        </div>
+      </div>
+
       <div className="experience">
         <img src="assets/bentley.png" alt="Bentley" />
         <div>
@@ -73,6 +87,7 @@ function App() {
           <p>Software Engineer Intern</p>
         </div>
       </div>
+
       <div className="experience">
         <img src="assets/stanford.webp" alt="Stanford School of Engineering" />
         <div>
@@ -82,6 +97,7 @@ function App() {
           <p>Growth Intern</p>
         </div>
       </div>
+
       <div className="experience">
         <img src="assets/google.png" alt="Google" />
         <div>
@@ -136,7 +152,7 @@ function App() {
           <p>Software Engineer Fellow</p>
         </div>
       </div>
-      <div className="experience">
+      <div className="experience" style={{ marginBottom: "1em" }}>
         <img src="assets/vnpt.svg" alt="VNPT" />
         <div>
           <h2>
@@ -145,6 +161,33 @@ function App() {
           <p>Software Engineer Intern</p>
         </div>
       </div>
+
+      <hr style={{ border: "none", height: "1px", backgroundColor: "black" }} />
+
+      <div className="experience">
+        <img src="assets/drexel.png" alt="Drexel" loading="lazy" />
+        <div>
+          <h2>
+            Drexel University <span className="time">Graduated 9/2025 🎓</span>
+          </h2>
+          <p>Bachelor of Science in Computer Science</p>
+        </div>
+      </div>
+
+      <div className="experience">
+        <img
+          src="assets/live_the_residency_logo.jpg"
+          alt="The Residency"
+          loading="lazy"
+        />
+        <div>
+          <h2>
+            The Residency<span className="time">9/2025</span>
+          </h2>
+          <p>Building of Stuff in Computer Science</p>
+        </div>
+      </div>
+
       <div className="resume">
         <a href="assets/BinhLe_Resume.pdf" target="_blank">
           view full resume

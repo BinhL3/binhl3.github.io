@@ -8,7 +8,7 @@ const Experience = () => {
       <Header></Header>
       <ul>
         <li>
-          <span className="date">mar 2025 – present</span>
+          <span className="date">mar – sep 2025</span>
           <div className="content">
             <span className="role">
               <a
