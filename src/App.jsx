@@ -28,17 +28,6 @@ function App() {
       />
       <p>{ageCalculator("2003-09-29")}. Software Engineer x Content Creator</p>
 
-      <div className="experience">
-        <img src="assets/remitly.png" alt="Hire Me" loading="lazy" />
-        <div>
-          <h2>
-            Remitly
-            <span className="time"> 10/2025 —</span>
-          </h2>
-          <p>Software Development Engineer I</p>
-        </div>
-      </div>
-
       <div className="experience" style={{ marginBottom: "1em" }}>
         <img
           src="assets/profilepic.jpg"
@@ -66,7 +55,7 @@ function App() {
         </div>
       </div>
 
-      <div className="experience">
+      {/* <div className="experience">
         <img src="assets/remitly.png" alt="Hire Me" loading="lazy" />
         <div>
           <h2>
@@ -75,7 +64,7 @@ function App() {
           </h2>
           <p>Software Development Engineer I</p>
         </div>
-      </div>
+      </div> */}
 
       <div className="experience">
         <img src="assets/bentley.png" alt="Bentley" />
