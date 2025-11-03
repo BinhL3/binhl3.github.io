@@ -7,6 +7,22 @@ const Experience = () => {
     <div className="main-container">
       <Header></Header>
       <ul>
+
+        <li>
+          <span className="date">oct 2025 - </span>
+          <div className="content">
+            <span className="role">
+              <a href="https://uber.com/" target="_blank" rel="noopener noreferrer">
+                software engineer 1 @ uber
+              </a>
+            </span>
+            <p className="description">
+              maps routing + eta prediction 
+            </p>
+            <span className="technologies">golang, java</span>
+          </div>
+        </li>
+
         <li>
           <span className="date">mar – sep 2025</span>
           <div className="content">
@@ -41,7 +57,7 @@ const Experience = () => {
               frontend components.
             </p>
             <span className="technologies">
-              react.js · typescript · c++ · github actions · azure devops
+              react.js, typescript, c++, github actions, azure devops
             </span>
           </div>
         </li>

@@ -17,6 +17,14 @@ function ageCalculator(birthday) {
 }
 
 function App() {
+  const [isUnlocking, setIsUnlocking] = React.useState(false);
+  const [hireLogo, setHireLogo] = React.useState("assets/locked.png");
+  const linkedInUrl = "https://linkedin.com/in/binhlee";
+
+  const handleHireClick = () => {
+    window.open(linkedInUrl, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <div className="main-container">
       <Header></Header>
@@ -44,27 +52,53 @@ function App() {
 
       <hr style={{ border: "none", height: "1px", backgroundColor: "black" }} />
 
-      <div className="experience">
-        <img src="assets/locked.png" alt="Hire Me" loading="lazy" />
+      <div
+        className="experience"
+        style={{ marginBottom: "1em", cursor: "pointer" }}
+        onMouseEnter={() => {
+          setIsUnlocking(true);
+          setHireLogo("assets/unlocked.png");
+        }}
+        onMouseLeave={() => {
+          setIsUnlocking(false);
+          setHireLogo("assets/locked.png");
+        }}
+        onClick={handleHireClick}
+        role="button"
+        tabIndex={0}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") handleHireClick();
+        }}
+      >
+        <img
+          src={hireLogo}
+          alt="Hire Me"
+          loading="lazy"
+          style={{
+            transition: "opacity 200ms ease, transform 200ms ease",
+            transform: isUnlocking ? "scale(1.05) rotate(-6deg)" : "none",
+            opacity: isUnlocking ? 0.9 : 1,
+          }}
+        />
         <div>
           <h2>
-            Locked
+            Hire Me
             <span className="time"> ?/202? — ?/203?</span>
           </h2>
           <p>Software Engineer ?</p>
         </div>
       </div>
 
-      {/* <div className="experience">
-        <img src="assets/remitly.png" alt="Hire Me" loading="lazy" />
+      <div className="experience">
+        <img src="assets/uber.png" alt="Hire Me" loading="lazy" />
         <div>
           <h2>
-            Remitly
+            Uber
             <span className="time"> 10/2025 —</span>
           </h2>
-          <p>Software Development Engineer I</p>
+          <p>Software Engineer I</p>
         </div>
-      </div> */}
+      </div>
 
       <div className="experience">
         <img src="assets/bentley.png" alt="Bentley" />
@@ -132,7 +166,7 @@ function App() {
           <p>Section Leader</p>
         </div>
       </div>
-      <div className="experience">
+      <div className="experience" style={{ marginBottom: "1em" }}>
         <img src="assets/meta.png" alt="Meta" />
         <div>
           <h2>
@@ -141,7 +175,7 @@ function App() {
           <p>Software Engineer Fellow</p>
         </div>
       </div>
-      <div className="experience" style={{ marginBottom: "1em" }}>
+      {/* <div className="experience"}>
         <img src="assets/vnpt.svg" alt="VNPT" />
         <div>
           <h2>
@@ -149,7 +183,7 @@ function App() {
           </h2>
           <p>Software Engineer Intern</p>
         </div>
-      </div>
+      </div> */}
 
       <hr style={{ border: "none", height: "1px", backgroundColor: "black" }} />
 
