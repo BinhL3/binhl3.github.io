@@ -5,6 +5,7 @@ import Projects from "./routes/Projects.jsx";
 import About from "./routes/About.jsx";
 import Resume from "./routes/Resume.jsx";
 import Goals from "./routes/Goals.jsx";
+import Press from "./routes/Press.jsx";
 
 export const router = createHashRouter([
   { path: "/", element: <App /> },
@@ -13,4 +14,5 @@ export const router = createHashRouter([
   { path: "/about", element: <About /> },
   { path: "/resume", element: <Resume /> },
   { path: "/goals", element: <Goals /> },
+  { path: "/press", element: <Press /> },
 ]);

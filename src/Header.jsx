@@ -61,13 +61,16 @@ export default function Header(props) {
             <Link to="/experience">experience</Link>
           </li>
           <li>
+            <Link to="/press">press</Link>
+          </li>
+          <li>
             <Link to="/projects">projects</Link>
           </li>
           <li>
-            <Link to="/about">about</Link>
+            <Link to="/goals">goals</Link>
           </li>
           <li>
-            <Link to="/goals">goals</Link>
+            <Link to="/about">about</Link>
           </li>
         </ol>
       </nav>

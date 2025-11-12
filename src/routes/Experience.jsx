@@ -61,7 +61,23 @@ const Experience = () => {
             </span>
           </div>
         </li>
-
+        <li>
+          <span className="date">apr - jun 2025</span>
+          <div className="content">
+            <span className="role">
+              <a
+                href="https://codeinplace.stanford.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                section leader @ stanford
+              </a>
+            </span>
+            <p className="description">
+              taught cs106a introduction to programming course for stanford
+            </p>
+          </div>
+        </li>
         <li>
           <span className="date">jan - mar 2025</span>
           <div className="content">
