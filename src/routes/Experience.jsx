@@ -8,21 +8,40 @@ const Experience = () => {
       <Header></Header>
       <ul>
 
+      <h2>current</h2>
         <li>
           <span className="date">oct 2025 - </span>
           <div className="content">
             <span className="role">
               <a href="https://uber.com/" target="_blank" rel="noopener noreferrer">
-                software engineer 1 @ uber
+                software engineer @ uber
               </a>
             </span>
             <p className="description">
-              maps routing + eta prediction 
+              working on optimization for maps routing + eta prediction 
             </p>
-            <span className="technologies">golang, java</span>
+            <span className="technologies">golang, java, typescript, devops</span>
+          </div>
+        </li>
+        <li>
+          <span className="date">sep 2025 - </span>
+          <div className="content">
+            <span className="role">
+              <a
+                href="https://codeinplace.stanford.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                growth @ stanford
+              </a>
+            </span>
+            <p className="description">
+            driving growth for code in place initiative by creating cs systems + content
+            </p>
           </div>
         </li>
 
+        <h2>internships</h2>
         <li>
           <span className="date">mar – sep 2025</span>
           <div className="content">
@@ -36,25 +55,7 @@ const Experience = () => {
               </a>
             </span>
             <p className="description">
-              enabled rapid schema debugging for 2000+ engineers by building
-              WiMSE, a web tool visualizing iModel schemas.
-              <br />
-              reduced internal tool latency by 65% (2000ms → 700ms) through
-              implementing parallel HTTP schema fetches.
-              <br />
-              cut cold start time from 6+ sec to near zero by optimizing state
-              hydration, improving app responsiveness at scale.
-              <br />
-              improved engineering velocity by 140% by migrating from Azure
-              DevOps to GitHub, automating CI/CD workflows, and standardizing
-              code review ownership.
-              <br />
-              leveraged schema UI refinements to boost navigation clarity and
-              minimize UI bugs, enhancing navigation efficiency by 20%.
-              <br />
-              reducing release risk and future regressions by integrating
-              Threagile checks into CI and expanding automated test coverage for
-              frontend components.
+            drove faster debugging for thousands of engineers with a modern schema visualization platform, revamped delivery pipelines with stronger test/security guardrails, and retooled data workflows to slash transfer and processing times across Bentley’s modeling infrastructure.
             </p>
             <span className="technologies">
               react.js, typescript, c++, github actions, azure devops
@@ -91,8 +92,7 @@ const Experience = () => {
               </a>
             </span>
             <p className="description">
-              generate online content and expose more students to free online cs
-              education
+              generate online content and expose more students to free online cs education
             </p>
             <span className="technologies">
               passion, cs knowledge, creativity
@@ -116,8 +116,7 @@ const Experience = () => {
               led efforts in automating user data retrievals from social media
               APIs, enhancing authentication processes and overall system
               efficiency. oversaw the integration of third-party services into
-              an ios app and played a key role in qa to ensure seamless data
-              extraction and feature reliability.
+              an ios app and played a key role in qa to ensure seamless data extraction and feature reliability.
             </p>
             <span className="technologies">
               typescript, firestore, typesaurus, react, swift, api, aws,
@@ -177,7 +176,7 @@ const Experience = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                software engineer intern @ vnpt
+                intern @ vnpt
               </a>
             </span>
             <p className="description">
@@ -194,7 +193,7 @@ const Experience = () => {
       <h2>campus activities</h2>
       <ul>
         <li>
-          <span className="date">2024 - present</span>
+          <span className="date">2024 - 2025</span>
           <div className="content">
             <span className="role">
               <a
@@ -214,7 +213,7 @@ const Experience = () => {
         </li>
 
         <li>
-          <span className="date">2024 - present</span>
+          <span className="date">2024 - 2025</span>
           <div className="content">
             <span className="role">
               <a

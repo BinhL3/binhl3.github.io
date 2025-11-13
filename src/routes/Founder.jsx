@@ -2,11 +2,84 @@ import React from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 
-const Projects = () => {
+const Founder = () => {
   return (
     <div className="main-container">
       <Header></Header>
       <ul>
+        <li>
+          <span className="date">jun 2024 - </span>
+          <div className="content">
+            <span className="role">
+              <a
+                href="https://www.hieuchua.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                hieu chua - vietnamese urbandictionary
+              </a>
+            </span>
+            <p className="description">
+              scaled to 3,000+ monthly users by delivering culturally authentic,
+              community-driven slang definitions. engineered an ai-powered
+              search flow, achieving 95% user satisfaction with accurate and
+              context-rich outputs.
+            </p>
+            <span className="technologies">
+              react, node.js, scikit-learn, express.js, fly.io, postgresql, exa
+              ai, sonar
+            </span>
+          </div>
+        </li>
+
+        <li>
+          <span className="date">sep 2024</span>
+          <div className="content">
+            <span className="role">
+              <a
+                href="https://donate.streamlit.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                donations dashboard for MTTQ
+              </a>
+            </span>
+            <p className="description">
+              an effort to compile the latest information asap in service of
+              MTTQ's initiatives, playing a vital role in coordinating relief
+              efforts for those affected by the typhoon
+            </p>
+            <span className="technologies">
+              streamlit, python, jupyter notebook, pdf plumber, csv
+            </span>
+          </div>
+        </li>
+
+        <li>
+          <span className="date">2013 -</span>
+          <div className="content">
+            <span className="role">
+              <a
+                href="https://www.youtube.com/@binh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                content creator
+              </a>
+            </span>
+            <p className="description">
+              amassed 1.3+ million followers by integrating cs education into
+              engaging content for vietnamese teens. directed marketing
+              strategies reaching 300+ million views with brands like tiktok,
+              vng, acer, and vtc games.
+            </p>
+            <span className="technologies">
+              youtube, tiktok, instagram, facebook, linkedin, marketing, content
+              creation
+            </span>
+          </div>
+        </li>
+
         {/* <li>
           <span className="date">aug 2024 - </span>
           <div className="content">
@@ -18,9 +91,9 @@ const Projects = () => {
               react, javascript, html, css, node
             </span>
           </div>
-        </li> */}
+        </li>
 
-        {/* <li>
+        <li>
           <span className="date">apr 2024</span>
           <div className="content">
             <span className="role">
@@ -180,4 +253,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Founder;
